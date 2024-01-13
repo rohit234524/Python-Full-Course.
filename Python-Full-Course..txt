@@ -1,0 +1,2689 @@
+"""print("hello world",+7+5)
+print(17*3)
+print("i am a good boy\nand this viewer is also a good boy/girl")
+# TESO jshf jhfdf
+rhit raj vaishali i am hero kon ho kaise ho bhai mero ko paise chahiye abhi kyoki meroko bukhar hoga kal
+print("hey","rohit",8,9,sep="~",end="+30.09\n")
+print("Rohan vaishali")
+
+harry = 9
+b = harry
+print(b)
+
+a="harry"
+print(a)
+
+#Variables
+a=1 #integer
+b=True #bollean
+c="harry" #string
+d=None #None
+e=2.3 #Complex
+f=2+6j
+
+
+
+print("the type of a is:",type(a))
+print("the type of b is:",type(b))
+print("the type of c is:",type(c))
+print("the type of d is:",type(d))
+print("the type of e is:",type(e))
+print("the type of f is:",type(f))
+
+print(2**6)
+a=10
+b=20
+x=input("enter the oparator=")
+if(x=="+"):
+    print("Addition=",a+b)
+elif(x=="-"):
+    print("subtraction=",a-b)
+elif(x=="*"):
+    print("multiplication=",a*b)
+else:
+    print("Not condition match symbol")
+
+
+# a=10
+# b=20
+# x=input("enter the oparator=")
+# switch(x)
+#     case"+":
+#     print("Addition=",a+b)
+#     break;
+#     case"-":
+#     print("subtraction=",a-b)
+#     break;
+#     case "*":
+#     print("multiplication=",a*b)
+#     break;
+#     default:
+#     print("Not condition match symbol")
+#     break;
+
+a=2
+b=3
+print("Two number Addition : ","a is first number=",a,"and b is second number=",b,"Calculate Addition =",a+b)
+
+# Type Casting
+a="12"
+b=8
+print(int(a)+b)
+
+b="20"
+c="70"
+print(int(b)*float(70))
+
+x=input("enter the first no=")
+y=input("enter the second no=")
+print("Addition=",int(x)+int(y))
+
+d="Rohit"
+if(d=="Rohit"):
+    print("Rohit is a good boy")
+else:
+    print("not good boy")
+#Explicit type cinversion //as a users convert(change(casting)) any value
+string="15"
+number=7
+string_number=int(string)
+sum=number+string_number
+print("Addition=",sum)
+
+#implicit type casting //as a python interpreter data type casting any value
+b=2.4
+c=5
+d=b+c
+print("additon=",d)
+
+
+#Create the input
+d=input()
+print("my name is:",d)
+
+e=int(input())
+print("Total is:",e+4)
+
+#String
+name="Rohit"
+frind="Rohan"
+string='he said,"i want to eat an apple'
+t='''rohit is my best friend'''
+print(string)
+print(t[0])
+for i in t:
+    print(i)
+
+
+#String opration proform
+names="Rohit,yadav,Vaishali"
+print(names[0:5])
+print(len(names[0:5]))
+
+fruit="Mango"
+len1=len(fruit)
+print("Mango is a",len1,"letter word.")
+
+print(fruit[0:4])
+print(fruit[1:4])
+print(fruit[:4])
+print(fruit[2:])
+print(fruit[:])
+print(fruit[:5])
+print(fruit[0:-3])
+
+print(fruit[1:len(fruit)-3])
+print(fruit[-4:-1])
+# print(fruit[-1:len(fruit)-4]) oposit string(5-1=4,5-4=1(not move))
+
+#String method
+h="Rohit!!!!!!!"
+t="!!!!Rohan!!!!Rohan!!!"
+s="!!Rohan!! vaishali satyam"
+print(len(h))
+print(h.strip())
+print(h.rstrip("!"))
+print(h.upper())
+print(h.lower())
+print(t.strip("!"))
+print(t.replace("Rohan!","Sohan*5"))
+
+print(s.split(" ")) #Create String
+
+sentance="introduction oF PythoN86*"
+print(sentance.capitalize())
+print(sentance.center(50))
+print(len(sentance.center(50)))
+
+print(sentance.count("o"))
+print(sentance.endswith("*"))
+print(sentance.startswith("introduction"))
+print(sentance.endswith("N8",17,23))
+print(sentance.startswith("d",6,10))
+
+print(sentance.find("oF"))
+print(sentance.find("ttp"))
+print(sentance.endswith("*"))
+print(sentance.index("oF"))
+
+y="WelCome09InpyThon" # A-Z,a-z,0-9
+print(y.isalnum())
+
+p="tecno tipo system"
+print(p.islower())
+
+a="WelComeTocity" #A-Z,a-z
+print(a.isalpha())
+
+a="welcome to jodhpur vaishali\n"
+print(a.isprintable())
+
+str1="   "
+print(str1.isspace())
+
+f="Rohit Kumar" #check cpitalize word
+g="tesla cAr"
+o="tEsla cAr"
+print(f.istitle())
+print(g.title())
+
+print(g.startswith("tesla")) #or start character check value
+print(o.swapcase())
+
+#conditional oprator
+# >,<.>=,<=,==,!=
+age=int(input("enter your age:"))
+print(age>18)
+print(age>=18)
+print(age<=18)
+print(age==18)
+print(age!=18)
+if(age>=18):
+    print("you can drive the car")
+else:
+    print("you can not drive the car")
+print("rohit drive the car") # outside write the code
+
+apple=120
+budget=100
+if(apple<=budget):
+    print("Alexa","1kg apple to cart")
+else:
+    print("Alexa,do not add apple to the cart")
+
+apple=10
+budget=100
+if(budget-apple>50):
+    print("Alexa","1kg apple to cart")
+elif(budget-apple>70):
+    print("alexa, 0.5 kg apple to cart")
+else:
+    print("Alexa,do not add apple to the cart")
+
+
+j=int(input("enter your no="))
+for i in range(j,1,-1):
+    print(i)
+
+if(j<0):
+    print("number s negative")
+elif(j==0):
+    print("number is zero")
+elif(j==999):
+    print("number is special")
+else:
+    print("number is positive")
+
+# Nested loop(condition)
+num=10
+if(num<0):
+    print("number is negative")
+elif(num>0):
+    if(num==10):
+        if(num>=10 and num<=20):
+            print("Number is between 11-20")
+        elif(num>=20 and num<=50):
+            print("number is between greater than 20(20-50")
+    else:
+        print("Number not equal to 10")
+else:
+    print("number is negative")
+
+time=float(input('enter yorr time:'))
+if(time>=6 and time<=11.59):
+    print("good morning ")
+elif(time>=12 and time<=14.59):
+    print("good afternoon")
+elif(time>=15 and time<=19.59):
+    print("good evening")
+else:
+    print("good night")
+
+import time
+timestamp=time.strftime("%H:%M:%S")
+print(timestamp)
+timestamp=time.strftime("%H")
+print(timestamp)
+timestamp=time.strftime("%M")
+print(timestamp)
+timestamp=time.strftime("%S")
+print(timestamp)
+
+import time
+date=time.strftime("%D:%M:%Y")
+Month=time.strftime("%d:%m:%y")
+Time=int(time.strftime("%H"))
+print(date)
+print(Month)
+print(Time)
+if(Time>=14):
+    print("Good Afternoon")
+elif(Time>=14 and Time<=19.59):
+    print("Good evening")
+elif(Time>=20 and Time<=23.59):
+    print("Good Night")
+else:
+    print("Good Morning.")
+
+#Match Statement
+x=int(input("enter the case:"))
+match x:
+    case 0:
+        print("x is zero=",x) # Pattern 1
+    case 4:
+        print("x is four=",x)
+    case _:
+        print("x is not match case") # Default 1
+
+x=int(input("enter the case:"))
+match x:
+    case 0:
+        print("x is zero=",x) # Pattern 1
+    case 4:
+        print("x is four=",x)
+    case _ if x!=99:
+        print(x, "is not equal to 99") #Pattern 2
+    case _ if x!=80:
+        print(x," is not equal to 80") #Pattern 3
+    case _: # Default 2
+        print(x)
+
+x=0
+if(x==1):
+    print("x is one")
+else:
+    print("x is not equal zero")
+
+name="welcome"
+for k in name:
+    print(k)
+    if(k =="o"):
+        print("o is find the string")
+    # else:
+    #     print("o is not find the string")
+
+colors=["Red","Green","White","Blue"]
+for color in colors:
+    print(color)
+    for i in color:
+        print(i)
+        for j in i:
+            print(j)
+            for k in j:
+                print(k)
+for i in range(5):
+    # print(i+1)
+    if(i==3):
+        exit(0) #program to out(After Write Code Not the print)
+    print(i)
+
+print("rohit")
+
+for i in range(5):
+    # print(i+1)
+    if(i==3):
+        break;
+    print(i)
+
+for i in range(10):
+    # print(i+1)
+    if(i==3):
+        continue;
+    print(i)
+
+for j in range(0,2000):
+    print(j+1)
+
+# for l in range(1,14,3):
+#     print(l)
+for k in range(12,1,-2):
+    print(k)
+
+#loops
+i=0
+while(i<=10):
+    print(i)
+    i=i+1
+
+i=int(input("enter he number="))
+while(i<=38):
+    num=int(input("input number="))
+    print(num)
+print("Done with loop.")
+
+i=int(input("enter he number="))
+while(i<=38):
+    i=int(input("input number="))
+    print(i)
+print("Done with loop.")
+
+count=5
+while (count>0):
+    print(count)
+    count=count-1
+else:
+    print("I am inside the else")
+
+n=1
+# do:
+print("number=",n)
+n=n+1
+while(n<=10):
+
+for j in range(15):
+    print("5 * ",j+1,"=",5*(j+1))
+    if(j==10):
+        break;
+    print("Loop is ended")
+
+for k in range(15):
+    if(k>=9):
+        print("End the loop=",k)
+        break;
+    print("end the loop=",k)
+
+for i in range(15):    #Break=loops ko chhodkar nikal jana
+                     #Continue=Particular Itration ko chhodkar jana
+    if(i==5):
+        break;
+    print("End the loop=",i)
+
+
+for j in range(15):
+    # print("5 * ",j+1,"=",5*(j+1))
+    # print("Skip the Itration(Ended)")
+    if(j==10):
+        print("Skip the Itration")
+        continue;
+    print("5 * ", j + 1, "=", 5 * (j + 1))
+
+#TODO  Do while LOOP
+i=0
+while True:
+    # number=int(input("enter the number="))
+    i=i+1
+    if(i%100==0):
+        break;
+    print(i)
+
+while True:
+    number=int(input("enter the number="))
+    i=number+1
+    if(i%100==0):
+        break;
+    print(i)
+
+a=9
+b=8
+gmean1=((a*b)/(a+b))
+print(gmean1)
+
+c=7
+d=4
+gmean2=((c*d)/(c+d))
+print(gmean2)
+
+#Function
+def gmean(a,b):
+    mean=((a*b)/(a+b))
+    print(mean)
+a=9
+b=8
+gmean(a,b)
+gmean(7,4)
+
+def gmean2(a,b):
+    mean=((a*b)/(a+b))
+    print(mean)
+    return mean;
+a=9
+b=8
+if(a>b):
+    print("a is greater")
+else:
+    print("b is greater than a")
+gmean2(a,b)
+
+# TODO Function argument
+# TODO DEFAULT ARGUMENT
+# TODO KEYWORD ARGUMENT
+# TODO VARIABLE LENGTH ARGUMENT
+# TODO  REQUIRED ARGUMENT
+def average(a,b):
+    print("The average calculate=",(a+b)/2)
+
+average(10,20)
+
+def average(a=9,b=8):
+    print("The average calculate=",(a+b)/2)
+
+average()
+
+def average(a=9,b=8):
+    print("The average calculate=",(a+b)/2)
+
+average(15,45)
+
+                        #TODO DEfalut Argument
+def average(a=9,b=5):
+    print("The average calculate=",(a+b)/2)
+
+average(10) #Bidefalt B value
+
+                        #defailt Argument
+def average(a=10,b=20):
+    print("The average calculate=",(a+b)/2)
+
+average(b=25)#Bidefault a value
+
+def name(fname,mname="kumar",lname="Yadav"):
+    print("HELLO",fname,mname,lname)
+
+name("Rohit","Raj","Roy")
+
+                    #TODO KEYWORD ARGUMENT
+
+def average(a=9,b=8):
+    print("The average calculate=",(a+b)/2)
+
+average(b=4,a=6) #Not order Parvah(tension)
+
+         #TODO REQUIRED ARGUMENT(important argument)
+
+def average(a,b=10):
+    print("The average calculate=",(a+b)/2)
+
+average(a=45)#necesary argument
+
+def average(a,b,c=10):
+    print("The average calculate=",(a+b+c)/3)
+
+average(10,10)#necesary argument
+
+def name(fname,mname="kumar",lname="Yadav"):
+    print("HELLO",fname,mname,lname)
+
+name("Rohit")
+
+#VERIABLE LENGHT ARGUMENT
+def average(*numbers):
+    print(type(numbers))
+
+average()
+
+def average(*numbers):
+    print(type(numbers))
+    sum=0
+    for i in numbers:
+        sum=sum+i
+    print("Average is: ",sum/len(numbers))
+
+average(5,6,1)
+
+def average(*numbers):
+    print(type(numbers))
+    sum=0
+    for i in numbers:
+        sum=sum+i
+    print("Average is: ",sum/len(numbers))
+
+average(5,6,1,5,10)
+
+def name(**name):
+    print(type(name))
+    print("HELLO",name["fname"],name["mname"],name["lname"])
+
+name(mname="Kumar",lname="Yadav",fname="Rohit")
+
+def average(*numbers):
+    sum=0
+    for i in numbers:
+        sum=sum+i
+    return sum / len(numbers
+                     )
+c=average(6,5,5)
+print(c)
+
+def mobile(**mobile):
+
+    print("Sale Mobile Product:",mobile["company"],mobile["model"],mobile["Year"])
+
+mobile(Year="2023",company="IPHONE 12",model="IP-2023")
+print(type(9))
+
+#                        TODO LIST.
+marks=[3,4,5,"Rohit",True,False]
+print(marks)
+print(type(marks))
+print(marks[0])
+print(marks[1])
+print(marks[2])
+print(marks[4])
+
+print(marks[-3])#Negative Index
+print(marks[len(marks)-3]) #Change Positive Index
+print(marks[6-3])
+
+if(marks=="Rohit"):
+    print("True")
+else:
+    print("False")
+
+if 5 in marks:
+    print("True")
+else:
+    print("False")
+
+if "Rohit" in marks:
+    print("True")
+else:
+    print("False")
+
+#Same thing Applies for String as well!
+if "hit" in "Rohit":
+    print("Yes")
+else:
+    print("No")
+
+#Jump Index Consept
+print(marks)
+print(marks[:])
+print(marks[1:-1])
+print(marks[1:4:3]) #jumo index 3
+print(marks[1:4:1])
+print(marks[1:4:2])#jump index 2
+
+l=["r",3,4,5,6,7,"satya",8,9]
+print(l[0:8:5]) #Jump index 5
+print(l[0:9])
+print(l[:9]) #ottomatically python index start 0
+print(l[1:]) #otoomatically python interpreater end index len(string)
+
+#List Comprehension
+list=[i for i in range(5)]
+print(list)
+
+list=[i*i for i in range(5)]
+print(list)
+
+list=[i*i*(20/100) for i in range(5)]
+print(list)
+
+list=[i for i in range(10) if i%2==0]
+print("Even number Print=",list)
+
+                 # TODO LIST METHODS.
+l=[1,2,3,45,23,34,52,76,25]
+l.append(9)
+print(l)
+l.sort() #Sort List
+l.sort(reverse=True) #Desending order sort list
+l.sort(reverse=False) #Asending order sort list.
+
+l=[1,2,3,45,23,34,52,76,25]
+# l.reverse() #original list oposit print value
+# print(l.index(1))
+# print(l.index(45))
+# print(l.count(3))
+# m=l
+# m[0]=0
+
+# m=l.copy()
+# m[0]=0
+print(l.insert(1,55))#one index add value and then chane the index of value
+
+m=[900,1000,1100]#last index add element
+l.extend(m)
+
+r=[500,600,700]
+k=l+r#not change the value of l list and new list create
+print(k)
+print(l)
+
+l=['e',8,"6","rohan",6.43]
+print(l)
+
+#                         TODO TUPLE.
+tup=(1,)#Not Used (1),because python interpreter uderstand int(value)
+# braket inside close
+print(type(tup),tup)
+tuple=(1,2,3,4,5,"green",True,9.3)
+# tuple[0]=90 #tuple not changebal
+print(tuple)
+print(tuple[0])
+print(tuple[2])
+print(tuple[6])
+print(tuple[-1])
+
+if 9.3 in tuple:
+    print("9.3 is present in the tuple")
+
+print(tuple[1:4])#SLICE operation proform then new tuple create
+
+#               TODO MANUPULATING TUPLE.
+
+countries=("Spain","Italy","India","England","Germany")
+temp=list(countries)
+temp.append("RUSSIA")#Add item
+temp.pop(3)         #Remove Index[3] item
+print(temp)
+
+temp[2]="Finland"      #Change item
+# countries= tuple(temp)
+print(countries)
+p=[1,2]
+# r=tuple(p)
+# print(r)
+
+countries1=("Pakistan","india","Bhutan","sri Lanka")
+countries2=("combodia","china","Russia","Dubai","indonesia","Dubai","chaina","Dubai")
+l=countries1+countries2
+print(l)
+
+res=(countries1.count("Pakistan"))
+print("Count Pakistan in tuple is:",res)
+print(countries2.index("Dubai"))
+print(countries2.index("Dubai",4,7))
+print(len(countries2))
+
+k=[34,25,67,88,25]
+print(k.index(25))
+print(k.index(25,2))
+
+import time
+t=time.strftime(("%H:%M:%S"))
+print(t)
+hour=int(time.strftime("%H"))
+print(hour)
+if(hour>0 and hour<12):
+    print("Good morning.")
+elif(hour>=12 and hour<16):
+    print("Good afternoon")
+elif (hour >=16 and hour < 20):
+    print("Good evening")
+else:
+    print("Good Night")
+
+print("WELCOME TO KBC(KON BANEGA KARORPATI):")
+Rupees=int(input("Enter the Ruppes="))
+if(Rupees==70000000):
+    print("you win the 7Cr Rupees.")
+else:
+    print("You not win 7Cr Rupees.")
+
+
+#           TODO STRING.
+# String using python in Formating.
+#Format(Method of String.)
+#F string.
+
+letter="Hey my name is:{} and i am from {}"
+country="India"
+name="Rohit"
+print(letter.format(name,country))
+print(letter.format(country,name))
+
+word="i play {1} and {0}"
+match="football"
+game="Bad minton"
+print(word.format(match,game))
+
+#F string.
+name="Rohit"
+address="vaishali(Bihar)"
+print(f"my name is {name} and i am from {address}")#{name} name value Populate string.
+
+price=20.0987
+txt=f"For only {price :.2f} dollars!"
+# print(txt.format())
+print(txt)
+l=txt.format(price=20.9098)
+
+price=49.0999
+text=f"for only dollors {price:.2f}"
+print(text)
+print(type(f"{2*30}"))
+
+#As it as python F-string show
+print(f"my name is {{name}} and my friend name {{name2}}")
+
+#                           TODO DOCSTRING.
+#Write understanding(function,class and modules) used the docstring.
+#"not ignore the docsting is python interpreter" and code documents forms create used the docsting.
+#And .__doc__ used keyword access the docstring.
+#First of all any function name and then create the docstring.
+
+def square(n):
+    "Takes in a number n,returns the square of n"#'''this is dcsting create'''
+    print(n**2)
+square(5)
+print(square.__doc__)
+
+#                            TODO PEP 8.
+
+#how to create best and greate python code used the pep 8.
+#PEP 8 is a guidlines and best Practice provides.
+#PEP 8(python enhensement propogel).
+#Maintable and greate write the code of python.(cmd write the import this enter your any project is completed.(jain of python)
+
+#                           TODO RECURSION.
+#Function called itself is called recursion.
+#functirial(n)=n*factorial(n-1)
+#Factorial(0)=1
+
+def factorial(n):
+    if(n==0 or n==1):
+        return 1
+    else:
+
+        return n * factorial(n-1)
+
+
+
+print("factorial number=",factorial(5))
+#5*factorial(n-1(4))
+#5*4*factorial(n-1(3))
+#5*4*3*factorial(n-1(2))
+#5*4*3*2factorial(n-1(1))
+#5*4*3*2*1=120
+
+#fibonacci series
+#f(0)=0
+#f(1)=1
+#f(2)=1
+#f(3)=2
+#f(4)=3
+
+#Write a program to print the fibonacci sequence.
+
+#                                  TODO SET.
+set={1,2,34,5}
+set1={1,2,34,5,34}#Not print the dublicate items.
+# print(set1[0]) #because unoredered set.
+# p=set[0]="d" #Set has Not Changebal.
+print(set)
+print(set1)
+# print(p)
+
+
+
+l={"rohan","vaishali",2,65,34.5,'s'}
+print(l)
+
+rohit={} #Dictionary
+# rohit1 = set() #Set
+print(type(rohit))
+# print(type(rohit1))
+
+for values in l:
+    print(values)
+
+#                   TODO METHOD OF SET
+
+s1={1,2,3,4,5,6,}
+s2={2,3,4,8,7,9}
+print(s1.union(s1))
+print(s1.union(s2))
+print(s1,s2)
+
+k=s1.update(s2)#s1 not present in value (print-7,8,9)
+print(k)
+
+city={"patna","jodhpur","delhi","jaipur","chennai"}
+city1={"jodhpur","hariyana","simla","delhi","kolkata"}
+print(city.union(city1))
+print(city.intersection(city1))
+print(city.intersection_update(city1))
+
+print(city.symmetric_difference(city1)) #TWO set not comman values print(like-kolkata,simla,hariyana etc)
+
+city3=city.difference(city1)
+print(city3)
+
+village={"baniya","kursaila","chakramdas","vaishali"}
+village1={"vaishali","bakhara","paru","batrauliya"}
+print(village.isdisjoint(village1))#Print-Flase #Same value two set(false return)
+
+village={"baniya","kursaila","chakramdas","vaishali1"}
+village1={"vaishali","bakhara","paru","batrauliya"}
+print(village.isdisjoint(village1)) #Print-True #Not Same value two set(true return)
+
+print(village.issuperset(village1))#Village Value inside village1 value Present so supperset print(True)
+gram={"vaishali","baniya"}
+gram1={"vaishali","baniya"}
+print(gram.issuperset(gram1))#gram superset gram1
+
+print(gram1.issubset(gram))#gram1 subset gram
+
+town={"vaishali","patna","darbhanga"}
+town.add("gopalgang")
+print(town)
+
+town1={"delhi","banarash","baliya"}
+update=town.update(town1)
+# up=town.update(["katihar","bhagalpur","sitamadhi"])
+print(update)
+
+# print(up)
+print(town.remove("banarash"))
+print(town)
+
+# print(town.remove("patna2"))#ERROR SHOW
+print(town.discard("patna2"))#NOT ERROR SHOW
+
+item=town.pop()#Random value pop(delete)
+print(item)
+
+# Del is a keyword not method
+# del town
+# print(town)
+
+town1.clear() #"Total element delete"
+print(town1)
+
+name={"rohan","satya","sanni","munna"}
+if "munna" in name:
+    print("munna is present in name(set)")
+
+#                           TODO DICTIONARY.
+dict={
+    "Rohit":"human being","spoon":"object"
+}
+print(dict["Rohit"])
+
+id={
+    344:"Rohit",
+    56:"Sapna",
+    67:"satya",
+    79:"Suraj"
+}
+print(id[56])
+
+info={
+    "name":"Rohit","age":"18","eligibal":True
+}
+# print(info["name"])#ERROR SHOW
+# print(info.get("name2")) #Not the ERROR! SHOW
+# print(info.keys())
+# print(info.values())
+#
+# for keys in info:
+#     if(keys=="age"):
+#         print("rohit kumar vaishali")
+#     else:
+#         print("not name")
+#
+# for key in info.keys():
+#     print(info[key])
+#
+# for key in info.keys():
+#     print(f"The value is corresponding to key {key} is {info[key]} ")
+
+print(info.items())
+for key,value in info.items():
+    print(f"The value corresponding to the key {key} is {value}")
+
+#                        TODO METHOD OF DICTIONARY.
+
+ep1={122:23,34:45,67:89}
+ep2={13:12,245:56,23:54,78:43}
+# ep1.update(ep2)
+# ep1.clear()
+# print(ep1)
+
+# empty={}
+# print(empty)
+# l=ep1.pop(122)
+# print(l)
+# print(ep2.pop(245))
+# ep2.popitem()
+# print(ep2)
+
+# del ep2
+# print(ep2)
+
+del ep1[122]
+print(ep1)
+#                       TODO LOOP USING ELSE.
+for i in range(10):
+    print(i)
+else:
+    print("Sorry i")
+
+for j in  []:
+    print(j)
+else:
+    print("sorry range not execute")
+
+for i in range(6):
+    print(i)
+    if i==4:
+        break
+else:
+    print("Sorry Number i")
+
+k=0
+while(k<8):
+    print(k)
+    k=k+1
+    if k==4:
+        break
+else:
+    print("Sorry Number i")
+
+
+m=0
+while(m<8):
+    print(m)
+    m=m+1
+    if m==4:
+        break
+else:
+    print("print sorry i")
+
+for x in range(5):
+    print("iteration no {} in for loop".format(x+1))
+else:
+    print("else block in loop")
+print("out of loop")
+
+a=int(input("enter the number:"))
+i=int(input("enter the number="))
+print(f"table {a}x{i}={a*i}")
+
+a=int(input("enter the number:"))
+
+print("TABLE PRINT:")
+for i in range(1,11):
+    print(f" {a}x{i}={a * i}")
+
+print("Some lines of code")
+print("end of program")
+
+#                   TODO EXCEPTION HANDLING.
+
+a=input("enter the number=")
+print(f"Multiplication table of {a} is: ")
+try:
+    for i in range(1, 11):
+        print(f"{int(a)}X{i}={int(a) * i}")
+
+except Exception as e:
+    print("Sorrry some error occured")
+    print("Invalid Input")
+
+print("Some imp lines of code")
+print("End of program")
+
+try:
+    n=int(input("enter the number="))
+except ValueError:
+    print("Number entered is not an integer.")
+
+
+
+try:
+    num=int(input("enter the number="))
+    a=[6,3]
+    print(a[num])
+except ValueError:
+    print("Number entered is not an integer.")
+
+except IndexError:
+    print("Index Error")
+
+#                       TODO FINALLY CLAUSE.
+# finally always time executed.
+try:
+    l=[1,2,3,4,5,6]
+    index=int(input("Enter the index="))
+    print(l[index])
+except:
+    print("Some error occured!")
+
+# finally:
+#     print("I am always occured")
+print("I am always occured")
+
+def fun1():
+    try:
+        l = [1, 2, 3, 4, 5, 6]
+        index = int(input("Enter the index="))
+        print(l[index])
+        return 1
+    except:
+        print("Some error occured!")
+        return 0
+
+    finally:
+        print("I am always occured")
+    # print("I am always occured")
+x=fun1()
+print(x)
+
+#                      TODO CUSTOM ERROR.
+# Raise keyword used the custom error raise.
+
+a=int(input("enter the any values betwwen 5 to 9="))
+
+if(a<5 or a>9):
+    raise ValueError("Value should be between 5 and 9")
+
+a=int(input("enter the any values="))
+
+if(a%2==0):
+    raise ValueError("Value should be Even number Print")
+
+#                   TODO KBC(KON BANEGA KARORPATI).
+
+questions=[
+    ["Which language was used to create fb?",
+           "python","French","javascript","php","None",4
+           ],
+
+[
+    "Which language was used to create fb?",
+           "python","French","javascript","php","None",4
+],
+["Which language was used to create fb?",
+           "python","French","javascript","php","None",4]
+,["Which language was used to create fb?",
+           "python","French","javascript","php","None",4],
+["Which language was used to create fb?",
+           "python","French","javascript","php","None",4]]
+
+levels=[1000,2000,3000,5000,10000,20000,40000,80000,160000,320000,
+        38000,530000,1298000,2450000,10000000]
+
+money=0
+for i in range(0,len(questions)):
+    question=questions[i]
+    print(f"\n \nQuestion for Rs.{levels[i]}")
+    print(f"a.{question[1]})          b.{question[2]}")
+    print(f"c.{question[3]})          d.{question[4]}")
+
+    reply=int(input("\n Enter the number(1-4) or 0 to quit"))
+    if(reply==question[-1]):
+        if(reply==0):
+            money=levels[i-1]
+            break
+        if(reply==question[-1]):
+
+
+            print(f"Correct answer,you have won Rs.{levels[i]}")
+
+        if(i==4):
+            money=1000
+        elif(i==9):
+            money=320000
+        elif(i==14):
+            money=10000000
+    else:
+        print("Wrong Password")
+        break
+
+print(f"your take home money is {money}")
+
+
+
+
+
+
+
+#                     TODO SHORTHAND IF-ELSE.
+# Short-hand if-else is time complexcity.(bachana)
+# Code write the short ways.
+a = 330
+b = 3303
+print("A")if a>b else print("=")if a==b  else print("B")
+
+print(9) if a>b else "8"
+print(9) if b>a else print("8")
+
+password=int(input("enter the password="))
+print("raju") if password==12345 else print("wrong password") if password==53031 else print("Any another type Passwod")
+
+password=["12345","53031","53044","53045"]
+print("raju") if password[0]=="12345" else print("wrong password") if password==53031 else print("Any another type Paaswod")
+
+
+password=["12345","53031","53044","53045"]
+print("raju") if password[2]=="12345" else print("wrong password") if password[1]=="53031" else print("Any another type Paaswod")
+
+a=14
+b=9
+c=9 if a>b else 0
+print(c)
+
+marks=input("enter the division of marks=")
+print("75") if (marks=="first division") else print("pass")
+
+
+for i in range(3):
+    marks = input("enter the division of marks=")
+
+    print("60 to 75") if (marks == "first division") else print("45 to 60") if (marks == "second division") else print(
+        "33 to 45") if (marks == "third division") else print("Fail")
+
+for i in range(3):
+    marks = input("enter the division of marks=")
+
+    number=int(input("Enter the number=") )
+    print(number) if (marks == "first division") else print("45 to 60") if (marks == "second division") else print(
+        "33 to 45") if (marks == "third division") else print("Fail")
+
+for i in range(3):
+    marks = input("enter the division of marks=")
+
+    number=int(input("Enter the number=") )
+    print(number) if (marks == "first division") else print("45 to 60") if (marks == "second division") else print("33 to 45") if (marks == "third division") else print("Fail")
+
+
+#                       TODO ENUMERATE FUNCTION.
+# Time complexciy.build-in function.
+#Any index find the values.
+#let any list iterate index values find.
+marks=[12,56,32,98,12,45,1,4]
+
+index=0
+for mark in marks:
+    print(mark)
+    if(index==3):
+        print("Rohit dangrous")
+    index+=1
+
+marks=[23,45,98,12,44,65,23,64]
+# markse=int(input("enter the number="))
+for index,mark in enumerate(marks):
+#marks=index and index=values
+    print(mark)
+    if(index==3):
+        print("Rohit dangrous")
+
+fruits=["apple","banana","papaya"]
+for index,fruit in enumerate(fruits):
+    print(index,fruit)
+
+fruits=("apple","banana","papaya")
+for index,fruit in enumerate(fruits,start=6):
+    print(index,fruit)
+    print(fruits[1])
+
+#                   TODO VIRTUAL ENVIRONMENT.
+#virtual enviroment help(used) the your isolated python environment alag(alone).
+#isolated python enviroment batane me help.
+
+# python -m venv myname
+# touch new file create.
+# source myname(foldername)/bin/activate:-activate folder.mac.
+# myname\script\activate.bat(ps1).windows.
+#import pandas as pd
+#print(pd.__version__)
+# python main.py
+# pip install lxml
+# pip install openpyxl
+
+# pip freeze > requirements.txt(pip freeze install all package give(global enviroments)
+# pip install -r requirements.txt
+
+#               TODO HOW IMPORTING (MODULE) IN PYTHON WORKS.
+# import any libraries access the code of libraries.
+# import pandas as pd
+# pd.read_csv(xlsx)(Path.)
+import math
+print(math.sqrt(9))
+print(math.floor(2.78))
+
+from math import sqrt, pi
+result=sqrt(9)*pi
+print(result)
+
+from math import *
+print(math.ceil(6.5))
+
+from  math import floor,ceil
+print(math.ceil(6.5))
+print(math.floor(6.5))
+
+import math as m
+print(m.sqrt(25))
+# import math as math_built_in_python
+print(dir(m))
+# dir() function used to any module seen the include pre-define function
+print(m.pow(2,6))
+print(type(m.nan))
+# print(type(m.asin()))
+
+print(type(m.radians))
+
+def welcome():
+    print("hey you are welcome my friend")
+
+first="A good boy"
+from first import welcome
+from first import *
+import first
+import math
+welcome()
+print(first)
+
+def welcome():
+    print("Hey you are welcome from rohit ")
+
+welcome()
+
+import python as p
+p.welcome()
+
+if __name__=="__main__": # Only import module execute.
+    welcome()
+
+#                     TODO OS MODULE.
+# Built-in module.
+# oparating system work manually his automate.(Ex-1.jpg,png file delete.)
+
+# import os # Folder create
+# os.mkdir("cv")
+
+import os
+
+if(not os.path.exists("data")):
+    os.mkdir("data")
+
+for i in range(0,100):
+    os.mkdir(f"data/Day{i+1}")
+
+import os
+for i in range(0,100):
+    os.rename(f"data/Day{i+1}", f"data/Tutorial{i+1}")
+
+import os
+folders=os.listdir("data")
+print(folders)
+
+for folder in folders:
+    print(folder)
+
+for folder in folders:# Folder in find Any File
+    print(folder)
+    print(os.listdir(f"data/{folder}"))
+
+print(os.getcwd())# Find Directry
+os.chdir("/Users")# change directry
+print(os.getcwd())
+
+# Pass:- Pass is a used of future works.
+#                       TODO EXERCISE -4 SOLUTION.
+st = input("Enter Massage=")
+words=st.split(" ")
+coding=input("1 for coding or 0 for Decodig=")
+coding=True if (coding=="1") else False
+# coding = False
+if(coding):
+    nwords=[]
+    for word in words:
+        if (len(word) >= 3):
+            r1="dsf"
+            r2="bsf"
+            stnew = r1+word[1:] + word[0]+r2
+            nwords.append(stnew)
+        else:
+            nwords.append(word[::-1])
+    print(" ".join(nwords))
+
+
+else:
+    nwords = []
+    for word in words:
+        if (len(word) >= 3):
+            stnew=word[3:-3]
+            stnew=stnew[-1]+stnew[:-1]
+
+            nwords.append(stnew)
+        else:
+           nwords.append(word[::-1])
+        print(" ".join(nwords))
+
+#                      TODO LOCAL AND GLOBAL VARIABLE.
+# global:-outside area define variable.And access the function inside and outside area.
+
+# Local:- block(Function) inside define variable.and accessible in function inside.
+
+# GLOBAL AND LOCAL ARE KEYWORD.
+
+# Name Location is called variable.
+
+x=4
+print(x)
+
+def hello():
+    x=5
+    y=1 # local variable not work in outside of function.(one specific range insidde work in local variable.)
+
+    print(f"The local is {x}")
+    print("Rohit is a good")
+
+print(f"The global x is {x}")
+
+hello()
+x=7
+print(f"The global is  {x}")
+# print(y)
+
+x = 10 # Global variable.
+
+def function():
+    global x
+    x=15
+    y=5 # Local variable.(Function Property.)
+    # print(x)
+    print(y)
+
+
+function()
+print(x)
+# print(y) # y is local variable and not access the outside area(of Function.).
+
+#                       TODO FILE HANDLING.
+# file write,read,copy,append(Additional content) etc work Perform in file handling concept in python.
+
+# File Create first of all f in initialise and then open keyword used and first argument pass the FILE NAME and second argument pass the MODE OF FILE.)
+
+# WITH STATEMENT USED THE ANY QUEZE OF FILE.
+
+
+# # Create and Write a File.
+# file=open("rohit.py","w")
+# print("File is successfully create.")
+# file.write("Rohit is a Developer and Data scientist.")
+# file.close()
+
+# Read a File.
+# f=open("rohit.py") # R mode is Default.
+# text=f.readline()
+# print(text)
+# f.close()
+
+f=open("rohit.py","a") # R mode is Default.
+f.write("Tecnical Communication of Mind.")
+f.close()
+
+# f=open("rohit.py","rb") # Binary file and "rt" mode text file(Bi-default).
+# text=f.read()
+# print(text)
+# f.close()
+
+with open("dj.html","w") as f:
+    f.write("Rohit is a good boy")
+    f.write(" Name=Rohit and Mark=76.2% second name=Satya and MArks=56.8.")
+    print("Html File is successfully create.")
+    f.close()
+
+#                   TODO ROCHAK METHODS OF FILE HANDLING.
+
+# Read a File.
+# Readline():-Line by line read any file of data.
+
+f=open("File.txt","r") # R mode is Default.
+# text=f.read()
+# print(text)
+# f.close()
+#
+# f=open("File.txt","r")
+# while True:
+#     line=f.readline()
+#     if not line:
+#         break
+#     print(line)
+
+i=0
+while True:
+    i=i+1
+    line = f.readline()
+    if not line:
+        break
+    m1=int(line.split(",")[0])
+    m2 =int(line.split(",")[1])
+    m3 =int(line.split(",")[2])
+
+    print(f"Marks of student{i} in maths is:{m1*2} ")
+    print(f"Marks of student{i} in science is:{m2*2} ")
+    print(f"Marks of student{i} in SST is:{m3*2} ")
+
+    print(line)
+
+# Writeline() function used the any iterable object one by one chipaka deta hai.
+# f=open("File.txt","w")
+# lines=["line1\n","line2\n","line3\n"]
+# f.writelines(lines)
+# f.close()
+
+
+with open("File.txt","r") as f:
+    print(type(f))
+# Move to the 10th byte in the file.
+    f.seek(10) # Ten Character(Bytes) after print any charater(Bytes).
+
+# read the next 5 bytes.
+    print(f.tell()) # Where File in how much space character(kitne chacter tak space(seek) use hua hai)
+    data=f.read(5) # Five Bytes read data.
+    print(data)
+
+# truncate() function= Byte like-2,3,4..n print the values.(Write Time).
+with open("satya.txt","w")as t:
+    t.write("Hello Rohit!")
+    t.truncate(4) # 4 character Write the data.
+    t.close()
+
+#                   TODO LAMBDA FUNCTION.
+# USED THE ANONYMOUS FUNCTION(NOT(Beaut) NAME) WRITE(BEAUT NAME FUNCTION ONLY EXPRESSION).and use the one line code end.
+# Single line expression.
+
+# def double(x):
+#     return x*2
+
+double=lambda x:x*2
+cube=lambda x:x*x*x
+avg=lambda x,y,z:((x+y+z)/3)
+
+print(double(5))
+print(cube(4))
+print(avg(2,3,4))
+
+def appl(fx,value):
+    return 6+fx(value)
+
+print(appl(cube,2))
+print(appl(lambda x:x*x*x,2))
+
+#                   TODO MAP,FILTER AND REDUCE.
+# Map,filter and reduce are built-in-function.that allow you to apply a function to a sequence of elements and
+# return a new Sequence.
+
+# These function are known as higher order function.as they take other functions as arguments.
+
+# Map(function ,iterable).
+# Filter(Predicate(function),iterable)
+
+# MAP
+# def cube(x):
+#     return x*x*x
+#
+# print(cube(3))
+
+l=[1,2,3,4,5,6,7]
+# newl=[]
+# for item in l:
+#     newl.append(cube(item))
+
+# newl=list(map(cube,l))
+newl=list(map(lambda x:x*x*x,l))
+print(newl)
+
+# Filter
+def filter_function(a):
+    return a>4
+newnewl=list(filter(filter_function,l))
+print(newnewl)
+
+# Reduce.
+from functools import reduce
+
+numbers=[1,2,3,4,5]
+def mysum(x,y):
+    return x+y
+
+sum=reduce(mysum,numbers)
+
+# sum=reduce(lambda x,y:x+y,numbers)
+
+print(sum)
+import ctypes.wintypes
+
+#               TODO IS AN ""=="(COMPARISION OPRATOR).
+
+a=4
+b="4"
+print(a is b) # Exact location of object in money.
+
+print(a==b) # Value
+
+# a=[1,2,43]
+# b=[1,2,43]
+#
+# print(a is b)
+# print(a==b)
+#
+# a=3 # Consant.(imutable).
+# b=3
+#
+# print(a is b)
+# print(a==b)
+#
+# a=(1,2,43)
+# b=(1,2,43)
+#
+# print(a is b)
+# print(a==b)
+
+# a=None
+# b=None
+#
+# print(a is b)
+# print(a is None)
+# print(a==b)
+
+a="Harry"
+b="Harry"
+
+print(a is b)
+# print(a is None)
+print(a==b)
+
+#         TODO OOPS (OBJECT ORIENTED PROGRAMMING LANGUAGE).
+# OOPs is a procees of duo to which easily understand program
+# And any entity action perform easily.
+
+# PROCEDURAL PROGRAMMING:-function create,logic used,one function to another function go data.
+
+# OOPS:-REAL WORD ENTITY CONSEPT SE MATCH(MAP).
+
+sales1=6000
+profit1=2000
+ad1=1000
+
+sales2=5000
+profit2=1500
+ad2=1200
+
+sales3=7000
+profit4=2500
+ad4=1500
+
+# RAILWAYSFORM  -->CLASS [BLUEPRINT]
+
+# ROHIT  -->ROHIT KI INFO WALA FORM.(rohit ki personal information like-where go,kon sa rail,sheet number)-->[OBJECT(ENTITY)].
+
+# TOM    -->TOM KI INFO WALA FORM.(personal details)-->[OBJECT(ENTITY)].
+
+# SATYA   -->SATYA KI INFO WALA FORM.(personal details)-->[OBJECT(ENTITY)].
+
+# INHERITANCE:-ADDITIONAL OBJECT(ADD).
+class Person:
+    name="Rohit Raj"
+    occupation="Data Scientist"
+    network=20
+
+    def info(self):
+        print(f"{self.name} is a {self.occupation}")
+
+a=Person()
+b=Person()
+c=Person()
+
+a.name="Satya"
+a.occupation="Software Developer"
+
+b.name="Priya"
+b.occupation="HR"
+# print(a.name,"And",a.occupation)
+a.info()
+b.info()
+c.info()
+
+# CLASS:-class is a one form and then fill up form and create the any object(entity).
+
+# self:-self means o object jisake liye method(function) call kiya ja raha hai.
+
+#                     TODO CONSTRUCTOR.
+# Constructor:-constructor help(used) of create object.and Initialization do help.
+
+# Mian purpose of constructor values initialize.
+
+# 1.Parameterized Constructor
+# 2.Default constructor.
+
+class Person:
+    def __init__(self,n,o):
+        print("Hello Rohit raj Vaishali")
+        self.name= n
+        self.occ= o
+
+    # name="Harry"
+    # occ="Developer"
+
+    def info(self):
+        print(f"{self.name} is a {self.occ}")
+
+a=Person("Rohit"," Data Scientist")
+b=Person("Suhani","HR")
+a.info()
+b.info()
+# c=Person(1,2,3) # self automatically pass the one values(Bi-default).
+
+# # print(a.name)
+# a.name="Divya"
+# a.occ="HR"
+# a.info()
+
+#                   TODO  DECORATORS.
+# Decorator is use of function modify.
+# Decorator use the @greet(keyword).
+
+def greet(fx):
+    def mfx(*args,**kwargs):
+        print("Good Morning")
+        fx(*args,**kwargs)
+        print("Thanks for using this function")
+
+    return mfx
+
+@greet
+def hello():
+    print("Hello World")
+
+@greet
+def add(a,b):
+    print(a+b)
+
+# greet(hello())
+hello()
+# greet(add(1,2))
+add(2,3)
+
+import logging
+
+def log_function_call(func):
+    def decorated(*args,**kwards):
+        logging.info(f"Clling {func.__name__} with arg={args},kwards={kwards}")
+
+        result=func(*args, **kwargs)
+        logging.info(f"{func.__name__} returned {result}") returned {result}")
+
+        return result
+    return decorated
+
+    @log_function_call
+    def my_function_call
+     def my_function(a,b):
+            return a*b
+
+#               TODO getters(),setters() function.
+
+class MyClass:
+    def __init__(self,value):
+        self._value=value
+
+    def show(self):
+        print(f"Values is {self._value}")
+
+    @property   # Property(first)  Decorator.(Getter())
+    def ten_value(self):
+        return 10*self._value
+
+    @ten_value.setter  # (Setter()) 2nd decorator.
+    def ten_value(self,new_value):
+        self._value = new_value / 10
+
+
+obj=MyClass(10)
+obj.ten_value=67
+print(obj.ten_value)
+obj.show()
+
+#                       TODO INHERITANCE.
+class employee:
+    def __init__(self,name,id):
+        self.name=name
+        self.id=id
+
+    def showDetails(self):
+        print(f"The name of Employee: {self.id} is {self.name}")
+
+class programmer(employee):
+    def showlanguage(self):
+        print("The language is Python.")
+
+
+e=employee("Rohit Raj",510)
+e.showDetails()
+e1=employee("Vikash Raj",420)
+e1.showDetails()
+
+e2=programmer("Satya",310)
+e2.showlanguage()
+
+class father:
+    def __init__(self,name,address):
+        self.name=name
+        self.address=address
+
+    def details(self):
+        print(f"My Father name is {self.name}.")
+
+    def address(self):
+        print(f"My Address is {self.address} ")
+
+class son(father):
+    def info(self):
+        print(f"My Name is {self.name}")
+        print(f"My address id {self.address}")
+
+class son1(father):
+    def info1(self):
+        print(f"My Name is {self.name}")
+        print(f"My address id {self.address}")
+
+f=father("Naresh Ray","Vaishali")
+f.details()
+s1=son("Rohit","Vaishali")
+s1.info()
+s2=son1("Manish","Vaishali")
+s2.info1()
+
+#                   TODO ACCESS SPECIFIERS.
+# Not exit for python in public,private and protected specifier.
+# Bi-default class create public.
+# Private access modifier:-class inside access.
+# protected access modifier:-child class access.
+# public access modifier:- class outside access.
+# All Variable public(Bi-default) in Python.
+
+# Python in private access modifier means NOT ACCESSIBLE.
+# python in __ denotes private data.
+# __ mangling python
+# TODO NAME MANGLING :-PRIVATE ATTRIBUTE NAME CHANGE.
+
+
+class Employee:
+    pass
+
+a=Employee()
+a.emp1=5
+print(a)
+
+class Employee:
+    def __init__(self):
+        self.__name="Mohan"
+
+
+a=Employee()
+# print(a.name)
+# print(a.__name) #can't be access directly.
+print(a._Employee__name)  # :- Name mangling
+# Can be access indirectly.
+
+print(a.__dir__())
+
+class Student:
+    def __init__(self):
+        self._name="Rohit"
+
+    def _funName(self):  # Protected Method
+
+        return "Rohit raj vaishali"
+
+class Subject(Student):  # Inheritance Class
+    pass
+
+obj=Student()
+obj1=Subject()
+
+# calling by object of student class.
+print(obj._name)
+print(obj._funName())
+print(dir(obj))
+
+# calling by object of subject class
+print(obj1._name)
+print(obj1._funName())
+
+#                       TODO SNAKE GAME.
+import random
+
+def check(comp,user):
+    if(comp==user):
+        return 0
+
+    if(comp==0 and user==1):
+        return -1
+
+    if(comp==1 and user==2):
+        return -1
+
+    if(comp==2 and user==0):
+        return -1
+
+    return 1
+
+comp=random.randint(0,2)
+user=int(input("0 for Snake, 1 for Water and 2 For Gun="))
+
+score=check(comp,user)
+
+print("You: ",user)
+print("Computer: ",comp)
+
+if(score==0):
+    print("its a draw")
+elif(score==-1):
+    print("You Lose")
+else:
+    print("You Won")
+
+#                   TODO STATIC METHODS.
+# static method are those method in which NOT BELONGS TO INSTANCE AND CLASS.
+# use static methods when not required for class instance(self).
+
+def add(a, b):
+    return a + b
+
+class math:
+    def __init__(self,num):
+        self.num=num
+
+    def addtonum(self,n):
+        self.num=self.num+n
+
+    @staticmethod # Wethout self(instance) use function AND NOT ASSOCIATE FOR ANY CLASS.
+    def add(a,b):
+        return a+b
+
+a=math(5)
+print(a.num)
+a.addtonum(6)
+print(a.num)
+
+print(a.add(7,3))
+print(math.add(2,3)) # any module with use of static class.
+
+print(add(10,15))
+
+# INTERVIEW QS- Kya kisi class ke under method create karane ke lie self argument dena jaruri hai ?
+# ANS-NAHI (Because static method Use).
+
+# TODO DIFFERENCE BETWEEN INSTANCE VARIABLE AND CLASS VARIABLE.
+# Instance variable use of real world entity in do map and one group create of function,variables and logical.
+
+# class me variable name change karane se class pahale instance variable ka  code print karata hai fir class ke variable ka.
+
+# class level define variable is class variable. And
+# Instance level define variable is Instance variable.(Ex-emp name,schoolName,mob no change etc).
+
+class employee:
+    companyName="Microsoft,(Apple)" # class associated(class property).(class variable).
+    noOfEmployees =0
+
+    def __init__(self,name):
+        self.name=name  # instance associated(instance property).
+
+        self.raise_amount=0.02
+        employee.noOfEmployee =+1
+
+    def showDetails(self):
+        print(f"The Employee name is {self.name} and the raise amount in {self.noOfEmployee} sized {self.companyName} is {self.raise_amount}")
+
+emp1=employee("Rohit Raj")
+emp1.raise_amount=0.05
+
+emp1.companyName="Apple India" #(Instance variable)
+# emp1.companyName="Google"
+emp1.showDetails()
+# employee.showDetails(emp1)
+
+employee.companyName="Google"
+print(employee.companyName)
+
+emp2=employee("Ravi")
+emp2.companyName="Amazon"
+emp2.showDetails()
+
+class Library:
+    def __inif__(self):
+        self.noBooks = 0
+        self.books = []
+
+    def addBook(self,book):
+        self.books.append(book)
+        self.noBooks=len(self.books)
+
+    def showInfo(self):
+        print(f"The library has {self.noBooks} books. The books are")
+        for book in self.books
+
+
+l1=Library()
+l1.addBook("Harry Potter")
+l1.showInfo()
+
+l1.showInfo()
+
+#                          TODO CLASS METHOD.
+# Any method create of Instance.
+
+class Employee:
+    company="Apple"
+    def show(self):
+        print(f"The name is {self.name} and company is {self.company}")
+
+    @classmethod
+    def changeCompany(cls,newCompany): # class available.
+        cls.company=newCompany
+
+e1=Employee()
+e1.name="Rohit"
+e1.show()
+
+e1.changeCompany("Tesla")
+e1.show()
+print(Employee.company)
+
+#    TODO HOW TO CLASS METHOD SAME USE FOR ALT COMMAND.
+# Constructor use of any Value Initialize.
+
+class Employee:
+    def __init__(self,name,salary):
+        self.name=name
+        self.salary=salary
+
+        # @classmethod
+        def fromStr(cls,string):
+            return cls(string.split("-")[0],int(string.split("-")[1]))
+
+e=Employee("Rohit",25000)
+print(e.name)
+print(e.salary)
+
+# a="Rohit-raj-12000"
+# print(a.split("-"))
+# print(a.split("-"))
+# print(a.split("-")[0])
+
+string="John-12000"
+e2=Employee.FromStr(string)
+print(e2.name)
+print(e2.salary)
+
+
+class Person:
+    def __init__(self,name,age):
+        self.name=name
+        self.age=age
+
+    @classmethod
+    def From_string(cls,string):
+        name,age=string.split(",")
+        return cls(name,int(age))
+
+person=Person.From_string("John Doe,30")
+print(person.name,person.age)
+
+#             TODO DIR() DICT() AND HELP() METHOD.
+# dict is a Attribute does says to be method.
+# __a__ is called Dunder method.
+
+# Dir()
+a=[1,2,3]
+print(dir(a))
+print(a.__add__)
+print(a.__class__)
+
+a=(1,2,3)
+print(dir(a))
+print(a.__add__)
+print(a.__class__)
+
+# Dict()
+
+class Person:
+    def __init__(self,name,age):
+        self.name=name
+        self.age=age
+        self.version=1
+
+p=Person("John",30)
+print(p.__dict__)
+
+# Help()
+
+print(help(Person))
+# print(help("time"))
+# print(help("datetime"))
+
+#                   TODO SUPER KEYWORD.
+# child class to Parent class called use of super keyword.
+
+class ParentClass:
+    def Parent_methid(self):
+        print("This is the parent class")
+
+class childClass(ParentClass):
+    def Parent_method(self):
+        print("Rohit")
+
+        super().Parent_methid()
+
+    def child_method(self):
+        print("This is the child method.")
+
+        super().Parent_methid()
+
+child_object=childClass()
+child_object.child_method()
+child_object.Parent_method()
+
+class Employee:
+    def __init__(self,name,id):
+        self.name=name
+        self.id=id
+
+class Programmer(Employee):
+    def __init__(self,name,id,lang):
+        self.name=name
+        # self.id=id
+        # self.lang=lang
+        super().__init__(name,id) # super ke init called.
+        self.lang=lang
+
+
+rohan=Employee("Rohan das","420")
+Rohit=Programmer("Rohit raj","450","python")
+print(rohan.name)
+print(rohan.id)
+# print(rohan.lang)
+
+print(Rohit.name)
+print(Rohit.id)
+print(Rohit.lang)
+
+#                     TODO MAGIC(DUNDER) METHOD.
+
+# Magic Method purpose are special work perform.(Ex:-__len__,__init__)
+# repr is a method and represent the values of this function recreate.
+
+class Employee:
+    name="Harry"
+
+    def __len__(self):
+        i=0
+        for c in self.name:
+            i=i+1
+
+        return i
+
+e=Employee()
+print(e.name)
+print(len(e))
+
+#                       TODO METHOD OVERRIDING.
+
+# Parent class method is re-define through child class use of method overriding.
+
+class Shape:
+    def __init__(self,x,y):
+        self.x=x
+        self.y=y
+
+    def area(self):
+        return self.x*self.y
+
+class Circle(Shape):
+    def __init__(self,radius):
+        self.radius=radius
+        super().__init__(radius,radius)
+
+
+    def area(self):
+        return 3.14*super().area() #Super class area method call            #self.radius*self.radius
+
+rec=Shape(3,5)
+print(rec.area())
+
+c=Circle(5)
+print(c.area())
+
+#                           TODO EXPERIMENT  7 SOLVE.
+import os
+
+files=os.listdir("clutteredFolder")
+for file in files:
+    if file.endswith(".png"):
+        print(file)
+
+        os.rename(f"clutteredFolder/{file}",f"clutteredFolder/{i}.png")
+        i=i+1
+
+#                         TODO OPERATOR OVERLOADING.
+# Operator overloading is a process which used to operator change the Behavior.
+
+class Vector:
+    def __init__(self,i,j,k):
+        self.i=i
+        self.j=j
+        self.k=k
+
+    def __str__(self):
+        return f"{self.i}i + {self.j}j + {self.k}k"
+
+    def __add__(self, x):
+        # return f"{self.i+x.i}i+ {self.j+x.j}j + {self.k+x.k}k"
+        return Vector(self.i + x.i, self.j + x.j, self.k + x.k)
+
+
+v=Vector(3,4,6)
+print(v)
+v2=Vector(1,5,7)
+print(v2)
+print(v+v2)
+
+print(type(v+v2))
+
+#                        TODO SINGLE INHERITANCE.
+
+class Animal:
+    def __init__(self,name,species):
+        self.name=name
+        self.species=species
+
+    def make_sound(self):
+        print("Sound made by the animal")
+
+class Dog(Animal):
+    def __init__(self,name,bread):
+        Animal.__init__(self,name,species="Dog")
+        self.bread=bread
+
+    def make_sound(self):
+        print("Bark")
+
+d=Dog("Dog","Doggerman")
+d.make_sound()
+
+a=Animal("Dog","Dog")
+a.make_sound()
+
+#                   TODO MULTIPLE INHERITANCE.
+# multiple inheritance is said to be when multiple class through one class create.
+# syntax=class childClass(ParentClass1,ParentClass2,ParentClass3).
+
+class Employee:
+    def __init__(self,name):
+        self.name=name
+
+    def show(self):
+        print(f"The name is {self.name}")
+
+class Dancer:
+    def __init__(self,dance):
+        self.dance=dance
+
+    def Show(self):
+        print(f"The name is {self.name}")
+
+class DancerEmployee(Employee,Dancer):
+    def __init__(self,dance,name):
+        self.dance=dance
+        self.name=name
+
+o=DancerEmployee("Khathak","Shivani")
+print(o.name)
+print(o.dance)
+o.Show()
+print(DancerEmployee.mro())
+
+#                       TODO MULTILEVEL INHERITANCE.
+# multilevel inheritance use in one class to create child class and one create child class.
+
+# class baseClass:
+   # Base class code
+
+# class DerivedClass(BaseClass):
+    # Derived Class 1 Code.
+
+# Class
+# DerivedClass2(DerivedClass1):
+    # Derived class 2 code.
+
+class Animal:
+    def __init__(self,name,species):
+        self.name=name
+        self.species=species
+
+    def show_details(self):
+        print(f"Name: {self.name}")
+        print(f"Species:{self.species}")
+
+class Dog(Animal):
+    def __init__(self,name,breed):
+        Animal.__init__(self,name,species="Dog")
+        self.breed=breed
+
+    def Show_details(self):
+        Animal.show_details(self)
+        print(f"Breed: {self.breed}")
+
+class GoldenRetriever(Dog):
+    def __init__(self,name,color):
+        Dog.__init__(self,name,breed="Golden Retriever")
+        self.color=color
+
+    def show_details(self):
+        Dog.show_details(self)
+        print(f"color:{self.color}")
+o=GoldenRetriever("Tommy","Black")
+o.show_details()
+
+print(GoldenRetriever.mro())  # method retrival operation.
+
+#                         TODO HYBRID INHERITANCE.
+# Two to above inheritance mixed and new inheritance create is said to be hybrid inheritance.
+
+class BaseClass:
+    pass
+
+class Derived1(BaseClass):
+    pass
+
+class Derived2(BaseClass):
+    pass
+
+class Derived3(Derived1,Derived2):
+    pass
+
+# Hierarchical Inheritance.
+# #  CEO
+# |  |    |
+# M1  m2   m3
+
+class BseClass:
+    pass
+
+class D1(BaseClass):
+    pass
+
+class D2(BaseClass):
+    pass
+
+class D3(D1):
+    pass
+
+#                       TODO EXERCISE:-8 SOLUTION.
+from PyPDF2 import Pdfwriter
+import os
+
+marger=Pdfwriter()
+files=[file for file in
+os.listdir() if
+file.endswith(".pdf")]
+
+for pdf in files:
+    marger.append(pdf)
+
+merger.write("merged-pdf.pdf")
+merger.close()
+
+#                           TODO TIME MODULE.
+
+import time
+def usingWhile():
+    i=0
+    while i<75000:
+        i=i+1
+        print(i)
+
+def usingFor():
+    for i in range(75000):
+        print(i)
+
+init=time.time()
+usingFor()
+t1=time.time()-init
+
+init=time.time()
+usingWhile()
+print(t1)
+print(time.time() -init)
+import time
+
+print(4)
+time.sleep(5)
+print("This is Printed after 5 seconds")
+import time
+
+t=time.localtime()
+formatted_time=time.strftime("%y-%m-%d %H:%M:%S",t)
+
+print(formatted_time)
+
+#                           TODO WALRUS OPERATOR.
+# Other language to write code python in problem. this problem solve in walrus operator.
+a=True
+print(a:=False)
+
+numbers=[1,2,3,4,5]
+
+while (n:=len(numbers))>0:
+    print(numbers.pop())
+
+foods=list()
+while True:
+    food=input("What food do you like?: ")
+
+    if( food=="quit"):
+        break
+    foods.append(food)
+
+foods=list()
+while (food:=input("What food do you like?: "))!="quit":
+    foods.append(food)
+
+#                       TODO SHUTIL MODULE.
+import shutil
+import os
+
+# shutil.copy("main.py","main2.py")
+# shutil.copytree(".tutorial","mytutorial")
+# shutil.move(".tutorial/file.file,"file.file")
+# shutil.rmtree(",mytutorial")
+#
+# shutil.rm("file.file") # delete folder
+
+os.remove("file.file") # delete folder from os module.
+
+#                       TODO EXERCISE 9 SOLVE.
+# FOR MAC
+from os import system
+names=["rohit","rahul","kriti","priya","sanni","Deepika"]
+system(f"say shoutout to {names}")
+
+import win32com.client
+shoutout=["Arpan","Agnishawar","swati"]
+
+speaker=win32com.client.Dispatch("SAPI.SpVoice")
+
+for name in shoutout:
+    s=name
+    speaker.speaker(f"shoutout to {name}")
+
+#                       TODO REQUEST MODULE.
+import requests
+# response= requests.get("https://www.google.com")
+response= requests.get("https://www.youtube.com")
+print(response.text)
+
+#                           TODO GENERATOR.
+# Generator is a special type of function.
+# when-when code required use of generator.
+
+def my_generator():
+    for i in range(50):
+        yield i # return yield is used generator.
+gen=my_generator()
+# print(next(gen))
+# print(next(gen))
+# print(next(gen))
+# print(next(gen))
+
+for j in gen:
+    print(j)
+
+#                      TODO FUNCTION CACHING.
+# computacing exponentially use of function caching.
+
+from functools import lru_cache
+import time
+
+@lru_cache(maxsize=None)
+def fx(n):
+    time.sleep(5)
+    return n*5
+
+print(fx(20))
+print("done for 20")
+
+print(fx(2))
+print("done for 2")
+
+print(fx(25))
+print("done for 25")
+
+print(fx(20))
+print("done for 20")
+
+print(fx(2))
+print("done for 2")
+
+print(fx(25))
+print("done for 25")
+
+print(fx(29))
+print("done for 29") # computing
+
+#                      TODO EXERCISE 10 SOLUTION.
+
+import requests
+import json
+
+query=input("what type of news are you interested in? ")
+url="https://newsapi.org/v2/everything?q=tesla&from=2023-06-30&sortBy=publishedAt&apiKey=API_KEY"
+r=requests.get(url)
+# print(r.text)
+news=json.loads(r.text)
+
+for article in news["articles"]:
+    print(article["title"])
+    print(article["description"])
+    print("--------------------------------------")
+
+#                   TODO REGULAR EXPRESSION.
+import re
+pattern=r"[A-Z]+yclone"
+text='''India, officially the Republic of India (ISO: Bhārat Gaṇarājya),[22] is a country in South Asia. It is the seventh-largest country by area; the most populous country as of June 2023;[23][24] and from the time of its Cyclone independence in 1947, the world's most populous democracy.[25][26][27] Bounded by the Indian Ocean on the south, the Arabian Sea on the southwest, and the Bay of Bengal on the southeast, it shares land borders with Pakistan to the west;[j] China, Nepal, and Bhutan to the north; and Bangladesh and Myanmar to the east. In the Indian Ocean, India is in the vicinity of Sri Lanka and the Maldives; its Andaman and Nicobar Islands share a maritime border with Thailand, Myanmar, and Indonesia. '''
+
+match =re.search(pattern,text)
+print(match)
+
+#                   TODO ASYNCIO.
+import time
+import asyncio
+
+async def function1():
+    await asyncio.sleep(1)
+    # time.sleep(3)
+    print("Fun 1")
+
+async def function2():
+    await asyncio.sleep(1)
+    # time.sleepa(3)
+    print("Func 2")
+
+async def function3():
+    await asyncio.sleep(4)
+    # time.sleep(3)
+    print("Func 3")
+
+async def main():
+    L=await asyncio.gather(
+    # task=asyncio.create_task(function1())
+
+    # await function1(),
+    # await function2(),
+    # await function3(),
+
+        function1(),
+        function2(),
+        function3(),
+    )
+# asyncio.run(main())
+print(L)"""
+import concurrent.futures.process
+#                            TODO MULTITHREADING.# 97
+import threading
+import time
+
+# Indicates some task being done.
+def func(seconds):
+    print(f"The Sleeping for {seconds} seconds")
+    time.sleep(seconds)
+
+# time1=time.perf.counter()
+# Normal Code
+func(4)
+func(2)
+func(6)
+# time2=time.perf_counter()
+# print(time2-time1)
+
+# same code using Threads.
+t1=threading.Thread(target=func, args=[4])
+t2=threading.Thread(target=func, args=[4])
+t3=threading.Thread(target=func, args=[4])
+
+t1.start()
+t2.start()
+t3.start()
+
+# calculating time
+# time2=time.perf-counter()
+# print(time -time1)
+
+#                             TODO MULTIPROCESSING.# 98
+# multiple cpu.
+# threading used in essay and decrease time in used.
+# thread one process inside.
+
+# Process is a big work and different-different cpu in work decide.
+
+import multiprocessing
+import requests
+import concurrent.futures
+
+def downloadFile(url,name):
+    reponse=requests.get(url)
+    open(f"files/file{name}.jpg","wb").write(response.content)
+    print(f"Finished downloading.{names}")
+
+url=""
+# pros=[]
+# for i in range(12):
+#     # downloadFile(url,i)
+#
+#     p=multiprocessing.Process(target=downloadFile,args=[url,i])
+#     p.start()
+#     pros.append((p))
+#
+# for p in pros:
+#     p.join()
+
+with concurrent.futures.process.ProcessPoolExecutor as executer:
+    l1=[url for i in range(60)]
+    l2 = [i for i in range(60)]
+
+    result=executer.map(downloadFile(),url,l1,l2)
+
+    for r in results:
+        print(r)
+
+
+
+
+#                               TODO EXERCISE 11 SOLVE.
+
+"""
+# For Mac
+import os
+import time
+
+REPEAT_INTERVAL=3600 # REPEAT FREQUENCY IN SECONDS.
+
+while True:
+    command="osascript -e \'say\" hey Rohit drink water\"\'; osascript -e \'display alert \"hey Rohit, Drnk water\"\'"
+
+    os.system(command)
+    time.sleep(REPEAT_INTERVAL)"""
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
